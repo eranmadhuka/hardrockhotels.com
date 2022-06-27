@@ -1,0 +1,256 @@
+
+@media(max-width: 991px){
+  /* Navbar -top */
+  .navbar-top{
+    display: none;
+  }
+
+  /* Main Nav-bar */
+  .main-navbar{
+    position: fixed;
+    text-align: left;
+    background-color: #2b2b2b;
+    top: 0;
+  }
+
+  .main-navbar .img-logo{
+    width: 50px;
+  }
+
+  .navbar .dropdown ul {
+    display: none;
+  }
+
+  .navbar .dropdown .dropdown ul{
+    display: none;
+  }
+
+  .main-navbar.scroll-on{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2b2b2b;
+    transition: all .15s ease-in-out 0s;
+  }
+
+  .main-navbar .img-logo{
+     width: 50px;
+  }
+
+  .main-navbar .nav-link{
+     line-height: 40px;
+  }
+
+  /* Home Slider  */
+  .carousel-item img{
+    margin-top: 50px;
+  }
+ 
+  .overly{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0.4) 90%);  
+  }     
+  
+  .carousel-caption{
+    text-align: left;
+    width: 50%;
+    margin-left: -10px;
+    bottom: 10px;
+  }
+  
+  .carousel-caption .italic-font{
+    font-size: 65px;
+    margin-left: -5px;
+  }
+  
+  .carousel-caption h1{
+    font-size: 50px;
+    margin-top: -20px;
+  }
+  
+  .carousel-caption p{
+    font-size: 18px;
+  }
+
+  /* booking-form */
+  .form-booking{
+    display: none;
+  } 
+
+  /* Image Slider */
+  .image-slider .carousel-content{
+    height: 100%;
+    width: 50%;
+    left: 0;
+    padding-bottom: 500px;
+  }
+
+  /* facts */
+  .facts img{
+    height: 40vh;
+  }
+
+  /* newslatter */
+  .newsletter{
+    text-align: center;
+    min-height: 50vh;
+  }
+
+  .newsletter .content{
+    padding: 0;
+    width: 100%;
+  }
+
+  /* footer */
+  footer{
+    text-align: left;
+    width: 100%;
+    padding: 0;
+  }
+
+  footer .center-menu{
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #ABABAB;
+    border-bottom: 1px solid #ABABAB;
+    padding: 40px 0;
+    height: 160px;
+    text-align: left;
+  }
+
+  footer .icons a{
+    display: inline-block;
+  }
+
+  /* Fixed Book Now Button Mobile  */
+  .fixed-bottom{
+    display: none;
+  }
+
+}
+
+@media(max-width:767px){
+  /* Home Slider  */
+  .carousel-control-prev,
+  .carousel-control-next{
+    visibility: hidden;
+  }
+  
+  .carousel-item {
+    height: 55vh;
+  } 
+
+  .carousel-item img{
+    background-position: center;
+  }
+
+  .overly{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 80%);  
+  } 
+  
+  .carousel-caption{
+    text-align: center;
+    bottom: 10px;
+    width: 70%;
+  }
+
+  .carousel-caption .italic-font{
+    font-size: 61px;
+    margin-left: -5px;
+  }
+  
+  .carousel-caption h1{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  
+  .carousel-caption p{
+    display: none;
+  }
+
+  .slider-btn{
+    display: inline;
+  }
+
+  /* Card */
+  .about{
+    padding: 0 3%;
+  }
+
+  .about .about-info{
+    text-align: center;
+  }
+
+  .card{
+    height: 350px;
+  }
+
+  .card-overly{
+    height: 350px;
+  }
+
+  .destinations{
+    padding: 2% 0;
+  }
+
+  /* Image Slider */
+  .image-slider .carousel-content{
+    height: 100%;
+    width: 50%;
+    bottom: 0;
+    top: 1px;
+  }
+
+  .image-slider .carousel-text p{
+    display: flex;
+  }
+
+  /* facts */
+  .facts img{
+    height: 40vh;
+  }
+
+  /* footer */
+  footer .center-menu{
+    padding: 40px 0;
+    height: 150px;
+  }
+
+  /* Fixed Book Now Button Mobile  */
+  .fixed-bottom{
+    display: block;
+  }
+
+  .fixed-bottom .main-btn{
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+@media(max-width:576px){
+  /* image-slider */
+  .image-slider {
+    padding-bottom: 100px;
+  }
+
+  .image-slider .carousel-content{
+    width: 100%;
+    background-color: #ececec;
+  }
+
+  .image-slider .carousel-inner img{
+   visibility: hidden;
+  }
+
+  /* footer */
+  footer .center-menu ul li{
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+
+}
+
+ 
+
